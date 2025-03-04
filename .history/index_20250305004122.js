@@ -1,9 +1,9 @@
-
+// 1. Function that receives a function and calls it
 function receivesAFunction(callback) {
-    callback();  
+    callback();  // Call the callback function passed as an argument
   }
   
- 
+  // 2. Function that returns a named function
   function returnsANamedFunction() {
     function namedFunction() {
       return "I am a named function!";

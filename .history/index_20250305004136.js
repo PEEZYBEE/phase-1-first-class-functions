@@ -1,4 +1,4 @@
-
+// 1. Function that receives a function and calls it
 function receivesAFunction(callback) {
     callback();  
   }
